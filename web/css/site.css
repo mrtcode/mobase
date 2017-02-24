@@ -1,0 +1,393 @@
+
+html,
+body {
+   height: 100%;
+}
+
+.wrap {
+   min-height: 100%;
+   height: auto;
+   margin: 0 auto -60px;
+   padding: 0 0 60px;
+}
+
+.wrap > .container {
+   padding: 0px 15px 20px;
+}
+
+.footer {
+   height: 60px;
+   background-color: #f5f5f5;
+   border-top: 1px solid #ddd;
+   padding-top: 20px;
+}
+
+.jumbotron {
+   text-align: center;
+   background-color: transparent;
+}
+
+.jumbotron .btn {
+   font-size: 21px;
+   padding: 14px 24px;
+}
+
+.not-set {
+   color: #c55;
+   font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+   position: relative;
+   top: 1px;
+   display: inline-block;
+   font-family: 'Glyphicons Halflings';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   padding-left: 5px;
+}
+
+a.asc:after {
+   content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+   content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+   content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+   content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+   content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+   content: "\e156";
+}
+
+.grid-view th {
+   white-space: nowrap;
+}
+
+.hint-block {
+   display: block;
+   margin-top: 5px;
+   color: #999;
+}
+
+.error-summary {
+   color: #a94442;
+   background: #fdf7f7;
+   border-left: 3px solid #eed3d7;
+   padding: 10px 20px;
+   margin: 0 0 15px 0;
+}
+
+
+.container {
+   /* max-width: 900px; */
+}
+
+
+.sims .filters, .vouchers .filters{
+   display:none; 
+   font-size: 10px; 
+}
+
+
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+   padding: 2px;
+}
+
+table {
+   /*font-size: 10px;*/
+}
+
+table .kv-editable-link {
+   padding: 0px;
+}
+
+
+.kv-grid-container {
+   overflow: scroll;
+   height: 400px;
+}
+
+.table > tbody > tr > td {
+   padding: 3px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span.twitter-typeahead .tt-dropdown-menu {
+   position: absolute;
+   top: 100%;
+   left: 0;
+   z-index: 1000;
+   display: none;
+   float: left;
+   min-width: 160px;
+   padding: 5px 0;
+   margin: 2px 0 0;
+   list-style: none;
+   font-size: 14px;
+   text-align: left;
+   background-color: #ffffff;
+   border: 1px solid #cccccc;
+   border: 1px solid rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+   background-clip: padding-box;
+}
+span.twitter-typeahead .tt-suggestion > p {
+   display: block;
+   padding: 3px 20px;
+   margin-bottom: 0px;
+   clear: both;
+   font-weight: normal;
+   line-height: 1.42857143;
+   color: #333333;
+   white-space: nowrap;
+}
+span.twitter-typeahead .tt-suggestion > p:hover,
+span.twitter-typeahead .tt-suggestion > p:focus {
+   color: #ffffff;
+   text-decoration: none;
+   outline: 0;
+   background-color: #428bca;
+}
+span.twitter-typeahead .tt-suggestion.tt-cursor {
+   color: #ffffff;
+   background-color: #428bca;
+}
+span.twitter-typeahead {
+   width: 100%;
+}
+.input-group span.twitter-typeahead {
+   display: block !important;
+}
+.input-group span.twitter-typeahead .tt-dropdown-menu {
+   top: 32px !important;
+}
+.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
+   top: 44px !important;
+}
+.input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
+   top: 28px !important;
+}
+
+.tt-hint {
+   color: #999
+}
+
+
+.full-size {
+   width: 100%;
+   height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.highlighted {
+   background-color:#999;
+}
+
+
+
+
+.ui-selected {
+   background-color:#FFFCBC;
+
+}
+
+.green {
+   color: green;
+}
+
+.red {
+   color: red;
+}
+
+.tab-button {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+textarea {
+   resize:vertical;
+   min-height: 100%;
+
+}
+
+.input-group-addon {
+   background-color: #FFFFFF;
+}
+
+
+.redish {
+   background-color: #FFDBCF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+   body {
+      font-size: 180%;
+   }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+   body {
+      font-size: 165%;
+   }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+
+.col-comment {
+
+}
+.col-comment .glyphicon {
+   font-size: 10px;
+
+}
+
+
+table th {
+   text-align: center;
+}
+
+.modal-header {
+   border: 0px;
+}
+
+
+.field-sim-id {
+   display: none;
+}
+
+.field-voucher-id {
+   display: none;
+}
+
+.field-dealer-id {
+   display: none;
+}
+
+.field-sim-iccid input {
+   opacity: .5;
+   pointer-events: none;
+}
+
+.fake-field {
+   padding: 0px;
+}
+
+
+
+.cdealer, .cassign_date {
+   white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
